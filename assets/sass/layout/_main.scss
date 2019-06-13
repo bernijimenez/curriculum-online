@@ -1,0 +1,40 @@
+.title {
+  position: relative;
+padding-top: 10vw;
+padding-right: 10vw;
+&__text {
+  margin-top: 5vw;
+
+}
+}
+
+.subtitle {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  &__web {
+    padding-top: 4vw;
+  }
+  &__grup{
+    padding-top: 20px;
+  }
+  &__date {
+    float: left;
+    padding-top: 5.5vw;
+    padding-left: 14vw;
+  }
+}
+
+p {
+  margin-top: 30px;
+  padding-right: 10vw;
+
+}
+
+.container-fluid {
+  padding-bottom: 90px;
+
+}
+
+.subtitle__ux {
+  padding-top: 5vw;
+}
