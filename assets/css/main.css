@@ -9760,9 +9760,17 @@ span {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  margin-top: 15vw;
+  margin-top: 13vw;
 }
 
+@media (max-width: 500px) {
+  .foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 1.5vw;
+  }
+}
 .back {
   position: fixed;
   width: 21vw;
@@ -9772,6 +9780,17 @@ span {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .back {
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    z-index: 1;
+    background-color: #7CEA9C;
+    text-align: center;
+    margin-left: 2vw;
+  }
+}
 .navigation__item {
   color: #2D3047;
   margin-top: 15px;
@@ -9779,11 +9798,11 @@ span {
 }
 
 i {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #2D3047;
-  margin-top: 8vw;
-  margin-bottom: 10vw;
-  padding-right: 2px;
+  margin-top: 7vw;
+  margin-bottom: 13vw;
+  padding: 10px;
 }
 
 .title {
@@ -9811,6 +9830,13 @@ i {
   padding-left: 14vw;
 }
 
+@media (max-width: 500px) {
+  .subtitle__date {
+    float: right;
+    padding-top: 5.5vw;
+    padding-left: 14vw;
+  }
+}
 p {
   margin-top: 30px;
   padding-right: 10vw;

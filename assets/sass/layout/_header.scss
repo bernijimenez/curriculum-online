@@ -5,12 +5,12 @@
   margin-top: 13vw;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 500px) {
   .foto {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    margin-top: 1vw;
+    margin-top: 1.5vw;
   }
 }
 
@@ -22,6 +22,18 @@
   z-index: 1;
   background-color: $green-acua;
   text-align: center;
+  }
+  @media (max-width: 500px) {
+    .back {
+      position: fixed;
+      width: 15vw;
+      height: 15vw;
+      z-index: 1;
+      background-color: $green-acua;
+      text-align: center;
+      margin-left: 2vw;
+
+    }
 }
 
 
@@ -33,7 +45,7 @@
 }
 
 i {
-  font-size: 1rem;
+  font-size: 4rem;
   color: $pearl-aqua;
   margin-top: 7vw;
   margin-bottom: 13vw;
